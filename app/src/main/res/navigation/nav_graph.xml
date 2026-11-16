@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/todayFragment">
+
+    <fragment
+        android:id="@+id/todayFragment"
+        android:name="com.uniplan.app.ui.today.TodayFragment"
+        android:label="Hôm nay" />
+
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="com.uniplan.app.ui.schedule.ScheduleFragment"
+        android:label="Lịch" />
+
+    <fragment
+        android:id="@+id/taskListFragment"
+        android:name="com.uniplan.app.ui.task.TaskListFragment"
+        android:label="Nhiệm vụ" />
+
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="com.uniplan.app.ui.stats.StatsFragment"
+        android:label="Thống kê" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.uniplan.app.ui.settings.SettingsFragment"
+        android:label="Cài đặt" />
+
+    <fragment
+        android:id="@+id/onboardingFragment"
+        android:name="com.uniplan.app.ui.onboarding.OnboardingFragment"
+        android:label="Onboarding" />
+
+    <fragment
+        android:id="@+id/sessionDetailFragment"
+        android:name="com.uniplan.app.ui.schedule.SessionDetailFragment"
+        android:label="Chi tiết buổi học" />
+
+    <fragment
+        android:id="@+id/sessionFormFragment"
+        android:name="com.uniplan.app.ui.schedule.SessionFormFragment"
+        android:label="Thêm buổi học" />
+
+    <fragment
+        android:id="@+id/subjectListFragment"
+        android:name="com.uniplan.app.ui.subject.SubjectListFragment"
+        android:label="Môn học" />
+
+    <fragment
+        android:id="@+id/subjectFormFragment"
+        android:name="com.uniplan.app.ui.subject.SubjectFormFragment"
+        android:label="Thêm môn học" />
+
+    <fragment
+        android:id="@+id/semesterListFragment"
+        android:name="com.uniplan.app.ui.semester.SemesterListFragment"
+        android:label="Học kỳ" />
+
+    <fragment
+        android:id="@+id/periodConfigFragment"
+        android:name="com.uniplan.app.ui.period.PeriodConfigFragment"
+        android:label="Khung giờ tiết" />
+
+    <fragment
+        android:id="@+id/timeBlockFormFragment"
+        android:name="com.uniplan.app.ui.timeblock.TimeBlockFormFragment"
+        android:label="Khối thời gian" />
+
+    <fragment
+        android:id="@+id/taskFormFragment"
+        android:name="com.uniplan.app.ui.task.TaskFormFragment"
+        android:label="Thêm nhiệm vụ" />
+
+    <fragment
+        android:id="@+id/taskDetailFragment"
+        android:name="com.uniplan.app.ui.task.TaskDetailFragment"
+        android:label="Chi tiết nhiệm vụ" />
+
+    <fragment
+        android:id="@+id/examFormFragment"
+        android:name="com.uniplan.app.ui.exam.ExamFormFragment"
+        android:label="Lịch thi" />
+
+    <fragment
+        android:id="@+id/focusTimerFragment"
+        android:name="com.uniplan.app.ui.focus.FocusTimerFragment"
+        android:label="Tập trung" />
+
+    <fragment
+        android:id="@+id/reminderSettingsFragment"
+        android:name="com.uniplan.app.ui.settings.ReminderSettingsFragment"
+        android:label="Nhắc nhở" />
+
+    <fragment
+        android:id="@+id/backupFragment"
+        android:name="com.uniplan.app.ui.settings.BackupFragment"
+        android:label="Sao lưu" />
+
+    <fragment
+        android:id="@+id/coinJarFragment"
+        android:name="com.uniplan.app.ui.jar.CoinJarFragment"
+        android:label="Lọ thành tựu" />
+
+</navigation>

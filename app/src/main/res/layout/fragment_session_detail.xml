@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tv_detail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chi tiết buổi học"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_detail_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Môn học"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:textColor="?attr/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_detail_time_room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="07:00 - 09:35 · Phòng A101"
+        android:layout_marginTop="8dp"
+        android:textColor="?android:attr/textColorSecondary" />
+
+    <Button
+        android:id="@+id/btn_cancel_single"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Hủy buổi này (Nghỉ)" />
+
+    <Button
+        android:id="@+id/btn_delete_all"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="?attr/colorError"
+        android:text="Xóa toàn bộ các buổi" />
+
+</LinearLayout>

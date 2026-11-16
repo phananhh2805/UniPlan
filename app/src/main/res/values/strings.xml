@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UniPlan</string>
+    <string name="channel_class_name">Nhắc lịch học</string>
+    <string name="channel_class_desc">Thông báo nhắc giờ học sắp tới</string>
+    <string name="channel_deadline_name">Nhắc deadline</string>
+    <string name="channel_deadline_desc">Thông báo nhắc nhiệm vụ sắp đến hạn</string>
+    <string name="channel_exam_name">Nhắc lịch thi</string>
+    <string name="channel_exam_desc">Thông báo nhắc lịch thi sắp tới</string>
+    <string name="channel_focus_name">Đồng hồ tập trung</string>
+    <string name="channel_focus_desc">Thông báo đếm giờ đồng hồ tập trung</string>
+</resources>
