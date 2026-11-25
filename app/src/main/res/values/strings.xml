@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UniPlan</string>
+    <string name="tab_today">Hôm nay</string>
+    <string name="tab_schedule">Lịch</string>
+    <string name="tab_tasks">Nhiệm vụ</string>
+    <string name="tab_stats">Thống kê</string>
+    <string name="tab_settings">Cài đặt</string>
+    <string name="tab_coin_jar">Lọ thành tựu</string>
+
+    <string name="add_class_session">Thêm buổi học</string>
+    <string name="add_time_block">Khối thời gian</string>
+    <string name="add_task">Nhiệm vụ</string>
+    <string name="add_exam">Lịch thi</string>
+
+    <string name="no_semester_title">Chưa có học kỳ</string>
+    <string name="create_semester_prompt">Tạo học kỳ để bắt đầu sử dụng UniPlan</string>
+    <string name="create_semester">Tạo học kỳ</string>
+
+    <string name="notification_disabled_banner">Thông báo đang bị tắt</string>
+    <string name="exact_alarm_disabled_banner">Báo thức có thể trễ</string>
+
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+
+    <string name="class_reminder">Nhắc lịch học</string>
+    <string name="deadline_reminder">Nhắc deadline</string>
+    <string name="exam_reminder">Nhắc lịch thi</string>
+    <string name="focus_timer">Đồng hồ tập trung</string>
+</resources>
